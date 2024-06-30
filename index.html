@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone paper scissor</title>
+    <link rel="stylesheet" href="desgin/style.css">
+    <script src="script/logic.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="first">
+            <h1>You</h1>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/553/002/original/man-head-cartoon-vector-illustration.jpg"
+                alt="picture" class="dp">
+            <div class="sign">
+                <button onclick="choice('sciccor')"><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/sciccors_final.png"
+                        alt="scissor" height="200px" class="buttonPic"></button>
+                <button onclick="choice('paper')"><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/paper_final.png"
+                        alt="paper" class="buttonPic"></button>
+                <button onclick="choice('stone')"><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/stone_final.png"
+                        alt="stone" class="buttonPic"></button>
+            </div>
+            <h2 id="youChoose">tap on icon</h2>
+
+
+        </div>
+
+        <div id="second">
+            <p id="winMssg" >Stone, Paper, Scissor!</p>
+            <div>
+                <button onclick="reveal()" class="btn">Reveal</button>
+                <button onclick="rst()" class="btn">Restart</button>
+            </div>
+        </div>
+
+
+
+
+        <div id="third">
+            <h1>Bot</h1>
+            <img src="https://th.bing.com/th/id/OIP.7-BeeT4e8_SWRDZzGlPhUQAAAA?rs=1&pid=ImgDetMain" alt="picture"
+                class="dp">
+            <div class="sign">
+                <button><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/sciccors_final.png"
+                        alt="+scissor" height="200px" class="buttonPic"></button>
+                <button><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/paper_final.png"
+                        alt="paper" class="buttonPic"></button>
+                <button><img
+                        src="https://amanchauhan112.github.io/Luffy.github.io/public/img/StonePaperScissor/stone_final.png"
+                        alt="stone" class="buttonPic"></button>
+            </div>
+            <h2 id="botChoice">bot: ???</h2>
+
+        </div>
+</body>
+
+</html>
+<!--  -->
